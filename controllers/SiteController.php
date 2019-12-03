@@ -8,6 +8,7 @@
 
 namespace app\controllers;
 
+    use Sf;
     use app\models\User;
     use sf\web\Controller;
 
@@ -38,6 +39,16 @@ class SiteController extends Controller
             'user' => $user
         ];
         echo $this->toJson($data);
+    }
+
+
+    public function actionCache()
+    {
+        $cache = Sf::createObject('cache');
+        $cache->set('test', '我就是测试一下缓存组件');
+        $result = $cache->get('test');
+        $cache->flush();
+        echo $result;
     }
 
 
