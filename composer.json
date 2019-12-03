@@ -1,0 +1,17 @@
+{
+    "name": "machuang/lightmvc",
+    "description": "A simple MVC php7 framework",
+    "authors": [
+        {
+            "name": "machuang",
+            "email": "machuang@julyedu.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "sf\\": "src/",
+            "app\\": ""
+        }
+    }
+}
