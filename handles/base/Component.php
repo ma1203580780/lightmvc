@@ -5,10 +5,10 @@
  * Date: 2019/12/3
  * Time: 19:33
  */
-namespace sf\base;
+namespace light\base;
 
 /**
- * Component is the base class for most sf classes.
+ * Component is the base class for most Light classes.
  * @author Harry Sun <sunguangjun@126.com>
  */
 class Component

@@ -19,7 +19,7 @@
  *
  */
 
-namespace sf\cache;
+namespace light\cache;
 
 interface CacheInterface
 {

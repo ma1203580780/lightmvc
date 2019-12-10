@@ -5,11 +5,11 @@
  * Date: 2019/12/3
  * Time: 19:32
  */
-namespace sf\cache;
+namespace light\cache;
 
 use Redis;
 use Exception;
-use sf\base\Component;
+use light\base\Component;
 
 /**
  * CacheInterface

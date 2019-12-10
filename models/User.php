@@ -7,7 +7,7 @@
  */
 namespace app\models;
 
-use sf\db\Model;
+use light\db\Model;
 
 /**
  * User model

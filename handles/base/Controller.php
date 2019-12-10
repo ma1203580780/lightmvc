@@ -5,11 +5,11 @@
  * Date: 2019/12/3
  * Time: 16:20
  */
-namespace sf\base;
+namespace light\base;
 
 /**
  * Class Controller
- * @package sf\base
+ * @package Light\base
  */
 class Controller
 {

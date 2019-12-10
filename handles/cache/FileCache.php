@@ -6,9 +6,9 @@
  * Time: 19:03
  */
 
-namespace sf\cache;
+namespace light\cache;
 
-use sf\base\Component;
+use light\base\Component;
 
 /**
  * CacheInterface

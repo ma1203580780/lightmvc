@@ -5,7 +5,7 @@
  * Date: 2019/12/3
  * Time: 15:39
  */
-namespace sf\base;
+namespace light\base;
 
 use Exception;
 

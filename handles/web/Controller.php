@@ -6,13 +6,13 @@
  * Time: 16:20
  */
 
-namespace sf\web;
+namespace light\web;
 
 /**
  * Controller is the base class for classes containing controller logic.
  * @author Harry Sun <sunguangjun@126.com>
  */
-class Controller extends \sf\base\Controller
+class Controller extends \light\base\Controller
 {
     /**
      * Renders a view
@@ -35,5 +35,10 @@ class Controller extends \sf\base\Controller
             return $data;
         }
         return json_encode($data);
+    }
+
+    public function __call($name, $arguments)
+    {
+        echo __CLASS__.'控制器的'.$name.'方法不存在';
     }
 }

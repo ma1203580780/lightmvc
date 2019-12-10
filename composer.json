@@ -10,7 +10,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "sf\\": "src/",
+            "light\\": "handles/",
             "app\\": ""
         }
     }

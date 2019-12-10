@@ -5,7 +5,7 @@
  * Date: 2019/12/3
  * Time: 17:15
  */
-namespace sf\db;
+namespace light\db;
 
 interface ModelInterface
 {

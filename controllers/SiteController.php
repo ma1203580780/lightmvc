@@ -8,9 +8,9 @@
 
 namespace app\controllers;
 
-    use Sf;
+    use Light;
     use app\models\User;
-    use sf\web\Controller;
+    use light\web\Controller;
 
 class SiteController extends Controller
 {
@@ -44,7 +44,7 @@ class SiteController extends Controller
 
     public function actionCache()
     {
-        $cache = Sf::createObject('cache');
+        $cache = Light::createObject('cache');
         $cache->set('test', '我就是测试一下缓存组件');
         $result = $cache->get('test');
         $cache->flush();

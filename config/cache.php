@@ -6,6 +6,6 @@
  * Time: 19:18
  */
 return [
-    'class' => '\sf\cache\FileCache',
+    'class' => '\light\cache\FileCache',
     'cachePath' => SF_PATH . '/runtime/cache/'
 ];

@@ -6,7 +6,7 @@
  * Time: 19:34
  */
 return [
-    'class' => 'sf\cache\RedisCache',
+    'class' => 'light\cache\RedisCache',
     'redis' => [
         'host' => 'localhost',
         'port' => 6379,

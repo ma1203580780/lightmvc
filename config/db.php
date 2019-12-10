@@ -9,7 +9,7 @@
 
 return [
 //    'class' => '\PDO',
-    'class' => '\sf\db\Connection',
+    'class' => '\light\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=sf',
     'username' => 'jun',
     'password' => 'jun',

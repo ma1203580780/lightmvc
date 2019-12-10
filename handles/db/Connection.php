@@ -7,7 +7,7 @@
  *
  *  Connection represents a connection to a database via [PDO](php.net/manual/en/book.pdo.php).
  */
-namespace sf\db;
+namespace light\db;
 
 use PDO;
 

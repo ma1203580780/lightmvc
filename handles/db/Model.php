@@ -5,7 +5,7 @@
  * Date: 2019/12/3
  * Time: 17:16
  */
-namespace sf\db;
+namespace light\db;
 
 use PDO;
 
@@ -29,29 +29,12 @@ class Model implements ModelInterface
     public static function getDb()
     {
         if (empty(static::$pdo)) {
-            static::$pdo = \Sf::createObject('db')->getDb();
+            static::$pdo = \Light::createObject('db')->getDb();
             static::$pdo->exec("set names 'utf8'");
         }
 
         return static::$pdo;
     }
-//    public static function getDb()
-//    {
-//        if (empty(static::$pdo)) {
-//            $host = 'localhost';
-//            $database = 'sf';
-//            $username = 'jun';
-//            $password = 'jun';
-//            $options = [
-//                PDO::ATTR_EMULATE_PREPARES => false,
-//                PDO::ATTR_STRINGIFY_FETCHES => false
-//            ];
-//            static::$pdo = new PDO("mysql:host=$host;dbname=$database", $username, $password, $options);
-//            static::$pdo->exec("set names 'utf8'");
-//        }
-//
-//        return static::$pdo;
-//    }
 
 
 

@@ -5,10 +5,10 @@
  * Date: 2019/12/3
  * Time: 18:24
  *
- * Sf is a helper class serving common framework functionalities.
+ * Light is a helper class serving common framework functionalities.
  */
 
-class Sf
+class Light
 {
     /**
      * Creates a new object using the given configuration.
