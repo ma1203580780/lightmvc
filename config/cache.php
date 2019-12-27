@@ -7,5 +7,5 @@
  */
 return [
     'class' => '\light\cache\FileCache',
-    'cachePath' => SF_PATH . '/runtime/cache/'
+    'cachePath' => APP_PATH . '/runtime/cache/'
 ];

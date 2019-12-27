@@ -17,7 +17,7 @@ class Light
      */
     public static function createObject($name)
     {
-        $config = require(SF_PATH . "/config/$name.php");
+        $config = require(APP_PATH . "/config/$name.php");
         // create instance
         $instance = new $config['class']();
         unset($config['class']);

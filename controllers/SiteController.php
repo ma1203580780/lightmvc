@@ -14,7 +14,7 @@ namespace app\controllers;
 
 class SiteController extends Controller
 {
-    public function actionTest()
+    public function test()
     {
         echo 'success!';
     }

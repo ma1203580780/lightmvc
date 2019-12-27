@@ -6,10 +6,15 @@
  * Time: 11:25
  */
 
-define('SF_PATH', dirname(__DIR__));
-require_once(SF_PATH . '/vendor/autoload.php');
-require_once(SF_PATH . '/handles/Light.php');
+define('APP_PATH', dirname(__DIR__));
 
-$application = new light\web\Application();
-$application->run();
+define('APP_DEBUG', true);
+
+define("ROUTE_MODE",3);
+
+
+require_once(APP_PATH . '/vendor/autoload.php');
+require_once(APP_PATH . '/handles/Light.php');
+
+(new light\web\Application())->run();//核心执行
 
