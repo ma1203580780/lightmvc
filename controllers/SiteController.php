@@ -10,6 +10,7 @@ namespace app\controllers;
 
 use Light;
 use app\models\User;
+use light\base\LogHandle;
 use light\web\Controller;
 
 class SiteController extends Controller
@@ -17,6 +18,11 @@ class SiteController extends Controller
     public function test()
     {
         echo 'success!';
+    }
+
+    public function log()
+    {
+        LogHandle::info('通过！');
     }
 
     public function actionView()

@@ -14,6 +14,9 @@ Route::get('success', function() {
 
 Route::get('home', 'SiteController@test');
 
+Route::get('log', 'SiteController@log');
+
+
 Route::get('(:all)', function($fu) {
     echo '未匹配到路由<br>'.$fu;
 });

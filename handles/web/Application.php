@@ -20,9 +20,9 @@ class Application extends \light\base\Application
         $this->setReporting();
 
         // 设定错误和异常处理
-        register_shutdown_function('Think\Think::fatalError');
-        set_error_handler('Think\Think::appError');
-        set_exception_handler('Think\Think::appException');
+//        register_shutdown_function('Think\Think::fatalError');
+//        set_error_handler('Think\Think::appError');
+//        set_exception_handler('Think\Think::appException');
 
     }
 
@@ -228,14 +228,14 @@ class Application extends \light\base\Application
      */
     public function setReporting()
     {
-        if (APP_DEBUG === true) {
-            error_reporting(E_ALL);
-            ini_set('display_errors','On');
-        } else {
-            error_reporting(E_ALL);
-            ini_set('display_errors','Off');
-            ini_set('log_errors', 'On');
-        }
+//        if (APP_DEBUG === true) {
+//            error_reporting(E_ALL);
+//            ini_set('display_errors','On');
+//        } else {
+//            error_reporting(E_ALL);
+//            ini_set('display_errors','Off');
+//            ini_set('log_errors', 'On');
+//        }
     }
 
 
