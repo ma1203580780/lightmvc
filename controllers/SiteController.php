@@ -8,9 +8,9 @@
 
 namespace app\controllers;
 
-    use Light;
-    use app\models\User;
-    use light\web\Controller;
+use Light;
+use app\models\User;
+use light\web\Controller;
 
 class SiteController extends Controller
 {
